@@ -1,0 +1,56 @@
+.header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .headerContent{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .palvadevNavigationContainer{
+            height: 100%;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .palvadevLogo{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                .palvadevLogoImage{
+                    height: 80%;
+                    width: auto;
+                }
+            }
+
+            .palvadevNagigation{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .navigationPoint{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .palvadevCta{
+            width: 30%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}
